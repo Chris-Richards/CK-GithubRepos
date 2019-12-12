@@ -45,7 +45,7 @@ $("#search_input").autocomplete({
 
     	} else {
     		$('.card').each(function(i, obj) {
-	    		if($(this).attr('id') == search) {
+	    		if($(this).attr('id').toLowerCase().indexOf(search) >= 0) {
 	    			$(this).attr('hidden', false);
 	    		} else {
 	    			$(this).attr('hidden', true);
