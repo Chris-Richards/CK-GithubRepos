@@ -1,0 +1,1 @@
+var GithubAPI = "https://api.github.com/users/culturekings/repos"
