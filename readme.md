@@ -9,6 +9,13 @@ Install composer dependencies
 composer install
 ```
 
+Create .env file and copy contents of .env.example
+
+Generate new app key
+```
+php artisan key:generate
+```
+
 Run server
 ```
 php artisan serve
